@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "tsc -b && vite build && npm run serve",
     "watch": "npx chokidar-cli 'src/**/*' --initial --ignore 'dist/**' -c 'npm run build'",
     "lint": "eslint .",
