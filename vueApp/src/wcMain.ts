@@ -2,14 +2,14 @@ import {defineComponent1} from "./webcomponents/component1.ts";
 
 defineComponent1();
 
-import {defineLikeButton} from "./webcomponents/defineLikeButton.ts";
-defineLikeButton();
-
-
-import {defineVideoPlayer} from "./webcomponents/defineViedoPlayer.ts";
-defineVideoPlayer();
-
+// import {defineLikeButton} from "./webcomponents/defineLikeButton.ts";
+// defineLikeButton();
 //
+//
+// import {defineVideoPlayer} from "./webcomponents/defineViedoPlayer.ts";
+// defineVideoPlayer();
+
+
 // import type {MyElement} from "./webcomponents/component1.ts";
 //
 // const el = document.getElementById('myElement')! as MyElement;
