@@ -4,14 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "build": "tsc -b && vite build && npm run serve",
+    "watch": "npx chokidar-cli 'src/**/*' --initial --ignore 'dist/**' -c 'npm run build'",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "serve" : "cd dist && npx http-server --cors --gzip -c-1"
   },
   "dependencies": {
     "vue": "^3.5.17"
   },
   "devDependencies": {
+    "@types/node": "^24.0.15",
     "@vitejs/plugin-vue": "^6.0.0",
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3",

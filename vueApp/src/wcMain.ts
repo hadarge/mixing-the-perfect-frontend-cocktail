@@ -28,34 +28,33 @@ defineVideoPlayer();
 // import type {VideoPlayer} from "./webcomponents/defineVideoPlayer.tsx";
 //
 // const likeButton = document.getElementById('likeButton')! as LikeButton;
-likeButton.onLikeChange = (liked, newCount) => {
-    console.log(
-        `%c❤️ (js)%c Liked changed to %c${liked}%c, Like count is now %c${newCount}`,
-        'color: red; font-weight: bold;',
-        'color: gray;',
-        'color: orange; font-weight: bold;',
-        'color: gray;',
-        'color: blue; font-weight: bold;'
-    );
-};
+// likeButton.onLikeChange = (liked, newCount) => {
+//     console.log(
+//         `%c❤️ (js)%c Liked changed to %c${liked}%c, Like count is now %c${newCount}`,
+//         'color: red; font-weight: bold;',
+//         'color: gray;',
+//         'color: orange; font-weight: bold;',
+//         'color: gray;',
+//         'color: blue; font-weight: bold;'
+//     );
+// };
 //
-const player1 = document.getElementById('player1')! as VideoPlayer;
-
-debugger;
-player1.onPlay = () => {
-    console.log(
-        `%c▶️ player1%c.onPlay`,
-        'color: green; font-weight: bold;',
-        'color: gray;'
-    );
-};
-player1.onPause = () => {
-    console.log(
-        `%c⏸️ player1%c.onPause`,
-        'color: orange; font-weight: bold;',
-        'color: gray;'
-    );
-};
+// const player1 = document.getElementById('player1')! as VideoPlayer;
+//
+// player1.onPlay = () => {
+//     console.log(
+//         `%c▶️ player1%c.onPlay`,
+//         'color: green; font-weight: bold;',
+//         'color: gray;'
+//     );
+// };
+// player1.onPause = () => {
+//     console.log(
+//         `%c⏸️ player1%c.onPause`,
+//         'color: orange; font-weight: bold;',
+//         'color: gray;'
+//     );
+// };
 //
 // const player2 = document.getElementById('player2')! as VideoPlayer;
 // player2.onPlay = () => {

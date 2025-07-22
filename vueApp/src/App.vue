@@ -58,7 +58,7 @@ const onPause = () => {
                 :onPause.prop="onPause"
                 :src="currentLink"></video-player>
 
-  <like-button likeCount="88" :onLikeChange.prop="likeChanged"></like-button>
+  <like-button initialLikeCount="88" :onLikeChange.prop="likeChanged"></like-button>
 
   <button :onclick="changeSrc">switch</button>
 

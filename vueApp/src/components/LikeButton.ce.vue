@@ -70,7 +70,7 @@ export default {
   data() {
     return {
       isLiked: this.initialLiked,
-      likeCount: this.initialLikeCount,
+      likeCount: Number.parseInt(this.initialLikeCount),
       isAnimating: false,
       showFloatingHearts: false
     }
